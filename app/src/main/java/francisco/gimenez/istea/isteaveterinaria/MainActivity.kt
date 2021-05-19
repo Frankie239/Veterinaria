@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         Init()
 
         b_agregar.setOnClickListener(View.OnClickListener {
-            
+
             if(animalitos.count() < 5){
 
                 if(vetes.selectedItem.toString() == "Juan" && countJuan ==3 || e_tipo.text.toString().toLowerCase() != "perro" ){
